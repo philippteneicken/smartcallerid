@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutzerklärung – SmartCallerID</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1d1d1f; }
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.2rem; margin-top: 2rem; }
+  a { color: #0071e3; }
+  small { color: #6e6e73; }
+  table { border-collapse: collapse; margin: 1rem 0; }
+  th, td { padding: 0.5rem 1rem; border: 1px solid #d2d2d7; text-align: left; }
+  .nav { margin-bottom: 2rem; }
+  .nav a { margin-right: 1rem; }
+</style>
+</head>
+<body>
+
+<div class="nav">
+  <a href="index.html">← Startseite</a>
+  <a href="support.html">Support</a>
+  <a href="terms.html">Nutzungsbedingungen</a>
+</div>
+
+<h1>Datenschutzerklärung für SmartCallerID</h1>
+<small>Stand: 28. April 2026</small>
+
+<h2>1. Verantwortlicher</h2>
+<p>
+[BITTE ANPASSEN: Vorname Nachname / Firmenname]<br>
+[BITTE ANPASSEN: Straße Hausnummer]<br>
+[BITTE ANPASSEN: PLZ Ort, Deutschland]<br>
+E-Mail: [BITTE ANPASSEN: kontakt@deine-domain.de]
+</p>
+
+<h2>2. Grundsatz</h2>
+<p>
+Der Schutz deiner persönlichen Daten ist uns wichtig. SmartCallerID wurde mit dem Prinzip "Privacy by Design" entwickelt. Die App verarbeitet deine Daten ausschließlich lokal auf deinem iPhone. Es findet keine Übertragung an unsere Server oder Dritte statt.
+</p>
+
+<h2>3. Welche Daten verarbeitet die App?</h2>
+<p>
+Die App benötigt Zugriff auf dein lokales Adressbuch (iOS Contacts), um Firmenkontakte zu erkennen und daraus mögliche Durchwahl-Nummern abzuleiten. Konkret werden folgende Datenfelder ausgelesen:
+</p>
+<ul>
+  <li>Organisationsname (Firma) eines Kontakts</li>
+  <li>Telefonnummern mit dem Label "Arbeit"</li>
+  <li>iOS-interner Identifier des Kontakts (zur internen Zuordnung)</li>
+</ul>
+
+<h2>4. Wo werden die Daten gespeichert?</h2>
+<p>
+Die generierten Durchwahl-Einträge werden in einer lokalen SQLite-Datenbank im geschützten App-Group-Container deines iPhones gespeichert. Diese Daten:
+</p>
+<ul>
+  <li>verlassen niemals dein Gerät</li>
+  <li>werden nicht in iCloud synchronisiert</li>
+  <li>werden nicht an die App-Entwickler übermittelt</li>
+  <li>werden nicht an Dritte weitergegeben</li>
+  <li>werden bei Deinstallation der App vollständig gelöscht</li>
+</ul>
+
+<h2>5. Call Directory Extension (CallKit)</h2>
+<p>
+Die App nutzt das Apple-Framework "CallKit Call Directory Extension". Diese System-Komponente erhält von SmartCallerID eine Liste von Telefonnummern und zugehörigen Anzeigenamen. Bei einem eingehenden Anruf prüft iOS lokal, ob die Nummer in dieser Liste steht – komplett ohne Internet-Zugriff. Anrufdaten werden weder von SmartCallerID noch von Apple an uns übermittelt.
+</p>
+
+<h2>6. In-App-Käufe (Abonnement)</h2>
+<p>
+SmartCallerID nutzt für das Pro-Abonnement das offizielle Apple In-App-Purchase-System (StoreKit 2). Die Zahlungsabwicklung erfolgt ausschließlich über deinen Apple-Account. Wir erhalten von Apple nur einen anonymen Hinweis, dass eine Subscription aktiv ist – keine Namen, keine Zahlungsdaten, keine E-Mail-Adressen.
+</p>
+
+<h2>7. Kein Tracking, keine Analytics</h2>
+<p>
+SmartCallerID enthält:
+</p>
+<ul>
+  <li>Keine Tracking-SDKs (kein Facebook SDK, Google Analytics, Firebase Analytics o. ä.)</li>
+  <li>Keine Werbung</li>
+  <li>Keine Telemetrie zur Nutzung der App</li>
+  <li>Keine Crash-Reports an Drittanbieter</li>
+</ul>
+
+<h2>8. Berechtigungen, die die App anfordert</h2>
+<table>
+<tr><th>Berechtigung</th><th>Zweck</th></tr>
+<tr><td>Kontakte</td><td>Auslesen von Firmennamen und Arbeitsnummern für die Durchwahl-Erkennung</td></tr>
+</table>
+
+<h2>9. Rechtsgrundlage (DSGVO)</h2>
+<p>
+Da alle Verarbeitung lokal auf deinem Gerät erfolgt und keine personenbezogenen Daten an uns übertragen werden, ist die App hinsichtlich Datenverarbeitung im Sinne der DSGVO weitgehend nicht relevant. Die Verarbeitung der Kontaktdaten auf deinem Gerät erfolgt auf Basis deiner Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die du durch das Erteilen der Kontakte-Berechtigung in iOS gibst und jederzeit in den iOS-Einstellungen widerrufen kannst.
+</p>
+
+<h2>10. Deine Rechte</h2>
+<p>
+Da wir keine personenbezogenen Daten von dir speichern, können wir dir keine Auskunft, Berichtigung oder Löschung gemäß DSGVO Art. 15-22 zu Daten anbieten, die wir nicht haben. Wenn du die in der App gespeicherten Daten löschen möchtest:
+</p>
+<ul>
+  <li>App deinstallieren – damit werden alle App-Daten gelöscht</li>
+  <li>Oder: in den iOS-Einstellungen die Kontakte-Berechtigung entziehen</li>
+</ul>
+
+<h2>11. Änderungen dieser Erklärung</h2>
+<p>
+Wir können diese Datenschutzerklärung gelegentlich aktualisieren. Die jeweils aktuelle Version ist unter dieser URL abrufbar.
+</p>
+
+<h2>12. Kontakt</h2>
+<p>
+Bei Fragen zum Datenschutz: <a href="mailto:[BITTE ANPASSEN]">[BITTE ANPASSEN: kontakt@deine-domain.de]</a>
+</p>
+
+</body>
+</html>
