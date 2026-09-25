@@ -1,0 +1,42 @@
+## User settings / derived data
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+## SPM
+.build/
+.swiftpm/
+Package.resolved
+
+## macOS / IDE junk
+.DS_Store
+*.swp
+*~.nib
+
+## xcodegen output — regenerate via `xcodegen generate`
+SmartCallerID.xcodeproj/
+
+## Logs
+*.log
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+dist/
+.next/
+Pods/
+*.hprof
+bin/
+obj/
+*.env
+*API_KEY*
+.claude/settings.local.json
+.data/
+chrome-profile/
+*.pem
+*.p12

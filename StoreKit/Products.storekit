@@ -1,0 +1,68 @@
+{
+  "identifier" : "4B96EF60-D32A-402F-A930-3D551BBC9386",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "0",
+    "_developerTeamID" : "",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 0,
+    "_locale" : "de_DE",
+    "_storefront" : "DEU",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "5448F46C-7061-42D7-9CDD-F15D08F536D9",
+      "localizations" : [
+        {
+          "description" : "SmartCallerID Pro",
+          "displayName" : "SmartCallerID Pro",
+          "locale" : "de_DE"
+        }
+      ],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "13BEAF71-6883-4C14-990A-7132D075D925",
+          "introductoryOffer" : {
+            "internalID" : "CFB9AD51-74D8-4145-9E69-68884525E534",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P2W"
+          },
+          "localizations" : [
+            {
+              "description" : "Erkennt Firmendurchwahlen aus deinen Kontakten – 14 Tage gratis testen.",
+              "displayName" : "SmartCallerID Pro",
+              "locale" : "de_DE"
+            }
+          ],
+          "productID" : "de.cleangas.smartcallerid.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "SmartCallerID Pro Monthly",
+          "subscriptionGroupID" : "5448F46C-7061-42D7-9CDD-F15D08F536D9",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
